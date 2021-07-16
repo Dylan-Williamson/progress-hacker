@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  height: 10vh;
+  min-height: 30px;
+  max-height: 60px;
+  position: sticky;
+  top: 0;
+  border: 1px solid black;
+}
+
+.navWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
